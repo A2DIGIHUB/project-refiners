@@ -46,9 +46,9 @@ const Navbar = () => {
 
     return (
         <nav
-            className={`fixed w-full z-50 transition-all duration-300 ${navbarBg} py-4`}
+            className={`fixed w-full z-50 transition-all duration-300 ${navbarBg} py-3 md:py-4`}
         >
-            <div className="container-custom flex justify-between items-center">
+            <div className="container-custom flex justify-between items-center px-4 md:px-8">
                 {/* Logo */}
                 <Link to="/" className="flex items-center gap-2 group">
                     <div className={`p-2 rounded-lg transition-colors ${logoBg}`}>

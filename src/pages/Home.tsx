@@ -17,18 +17,19 @@ const Home = () => {
                         initial={{ opacity: 0, y: 30 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8 }}
+                        className="px-4"
                     >
-                        <h2 className="text-xl md:text-2xl font-medium tracking-wider mb-4 text-red-400 uppercase">Welcome Home</h2>
-                        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 tracking-tight">Refiners-City</h1>
-                        <p className="max-w-2xl mx-auto text-lg md:text-xl text-gray-200 mb-10">
+                        <h2 className="text-lg md:text-2xl font-medium tracking-wider mb-4 text-red-400 uppercase">Welcome Home</h2>
+                        <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold mb-6 tracking-tight">Refiners-City</h1>
+                        <p className="max-w-xl mx-auto text-base sm:text-lg md:text-xl text-gray-200 mb-8 leading-relaxed">
                             A place to encounter God, experience transformation, and find your purpose.
                             Join us this Sunday as we worship together.
                         </p>
-                        <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                            <Link to="/visit" className="btn btn-primary text-lg px-8 py-3 flex items-center justify-center gap-2">
+                        <div className="flex flex-col sm:flex-row gap-4 justify-center w-full max-w-sm sm:max-w-none mx-auto">
+                            <Link to="/visit" className="btn btn-primary text-base md:text-lg px-6 md:px-8 py-3 flex items-center justify-center gap-2">
                                 Plan a Visit <ArrowRight size={20} />
                             </Link>
-                            <Link to="/watch" className="btn bg-white/10 backdrop-blur-sm text-white hover:bg-white/20 text-lg px-8 py-3 flex items-center justify-center gap-2">
+                            <Link to="/watch" className="btn bg-white/10 backdrop-blur-sm text-white hover:bg-white/20 text-base md:text-lg px-6 md:px-8 py-3 flex items-center justify-center gap-2">
                                 <PlayCircle size={20} /> Watch Online
                             </Link>
                         </div>
