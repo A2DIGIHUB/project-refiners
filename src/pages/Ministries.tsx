@@ -5,32 +5,32 @@ const Ministries = () => {
         {
             name: "RC Kids",
             desc: "Creating a fun, safe, and faith-filled environment where children can learn about Jesus on their level.",
-            img: "https://images.unsplash.com/photo-1472162072942-cd5147eb3902?q=80&w=2069&auto=format&fit=crop"
+            img: "/images/ministries/kids.png"
         },
         {
             name: "Refiners Youth",
             desc: "Empowering middle and high school students to own their faith and influence their culture.",
-            img: "https://images.unsplash.com/photo-1529070538774-1843cb3265df?q=80&w=2070&auto=format&fit=crop"
+            img: "/images/ministries/youth.png"
         },
         {
             name: "Young Adults",
             desc: "A community for 18-30s to navigate life together, grow in discipleship, and find deep connection.",
-            img: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=2070&auto=format&fit=crop"
+            img: "/images/ministries/general.png"
         },
         {
             name: "Men's Ministry",
             desc: "Challenging men to be the leaders, husbands, and fathers God created them to be.",
-            img: "https://images.unsplash.com/photo-1503437313881-503a91226402?q=80&w=2532&auto=format&fit=crop"
+            img: "/images/ministries/general.png"
         },
         {
             name: "Women's Ministry",
             desc: "Inspiring women to walk in confidence, compassion, and the fullness of their calling.",
-            img: "https://images.unsplash.com/photo-1573164713988-8665fc963095?q=80&w=2069&auto=format&fit=crop"
+            img: "/images/ministries/general.png"
         },
         {
             name: "Outreach",
             desc: "Taking the love of Christ beyond the four walls of the church to serve our city and world.",
-            img: "https://images.unsplash.com/photo-1593113598332-cd288d649433?q=80&w=2070&auto=format&fit=crop"
+            img: "/images/about/community.png"
         }
     ];
 

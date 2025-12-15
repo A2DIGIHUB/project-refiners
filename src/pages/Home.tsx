@@ -8,7 +8,7 @@ const Home = () => {
             {/* Hero Section */}
             <section className="relative h-screen min-h-[600px] flex items-center justify-center text-center overflow-hidden bg-secondary">
                 {/* Background Image/Overlay */}
-                <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1438232992991-995b7058bbb3?q=80&w=2073&auto=format&fit=crop')] bg-cover bg-center">
+                <div className="absolute inset-0 bg-[url('/images/home/hero.png')] bg-cover bg-center">
                     <div className="absolute inset-0 bg-black/60 bg-gradient-to-t from-black/80 to-transparent"></div>
                 </div>
 
@@ -115,7 +115,7 @@ const Home = () => {
                     >
                         <div className="absolute -inset-4 bg-gray-100 rounded-2xl md:-rotate-3 -z-10"></div>
                         <img
-                            src="https://images.unsplash.com/photo-1510590337019-5ef2d3977e2e?q=80&w=2070&auto=format&fit=crop"
+                            src="/images/about/community.png"
                             alt="Worship community"
                             className="rounded-xl shadow-2xl w-full object-cover h-[500px]"
                         />
@@ -136,17 +136,17 @@ const Home = () => {
                             {
                                 title: "Kids",
                                 desc: "A fun and safe environment for children to learn about Jesus.",
-                                image: "https://images.unsplash.com/photo-1502086223501-8351e0815624?q=80&w=2069&auto=format&fit=crop"
+                                image: "/images/ministries/kids.png"
                             },
                             {
                                 title: "Youth",
                                 desc: "Empowering the next generation to live boldly for Christ.",
-                                image: "https://images.unsplash.com/photo-1523580494863-6f3031224c94?q=80&w=2070&auto=format&fit=crop"
+                                image: "/images/ministries/youth.png"
                             },
                             {
                                 title: "Groups",
                                 desc: "Life flows better in community. Find a small group near you.",
-                                image: "https://images.unsplash.com/photo-1529156069896-85763ddaf8f4?q=80&w=2574&auto=format&fit=crop"
+                                image: "/images/about/community.png"
                             }
                         ].map((min, idx) => (
                             <motion.div

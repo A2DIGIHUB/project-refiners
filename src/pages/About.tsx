@@ -23,7 +23,7 @@ const About = () => {
                     <div className="md:col-span-5 relative">
                         <div className="aspect-[4/5] rounded-2xl overflow-hidden bg-gray-100">
                             <img
-                                src="https://images.unsplash.com/photo-1544427920-c49ccfb85566?q=80&w=2555&auto=format&fit=crop"
+                                src="/images/about/community.png"
                                 alt="Community"
                                 className="w-full h-full object-cover"
                             />
