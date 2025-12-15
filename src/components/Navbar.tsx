@@ -29,6 +29,7 @@ const Navbar = () => {
         { name: 'About', path: '/about' },
         { name: 'Ministries', path: '/ministries' },
         { name: 'Events', path: '/events' },
+        { name: 'Sermons', path: '/sermons' },
         { name: 'Contact', path: '/contact' },
     ];
 
@@ -73,8 +74,8 @@ const Navbar = () => {
                     <Link
                         to="/give"
                         className={`btn flex items-center gap-2 ${isTransparent
-                                ? 'bg-white text-primary hover:bg-gray-100'
-                                : 'bg-primary text-white hover:bg-red-800'
+                            ? 'bg-white text-primary hover:bg-gray-100'
+                            : 'bg-primary text-white hover:bg-red-800'
                             }`}
                     >
                         <Heart size={18} className="fill-current" />

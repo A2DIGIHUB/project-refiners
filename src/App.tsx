@@ -8,6 +8,8 @@ import Contact from './pages/Contact';
 import Give from './pages/Give';
 import Visit from './pages/Visit';
 
+import Sermons from './pages/Sermons';
+
 function App() {
   return (
     <Layout>
@@ -16,6 +18,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/ministries" element={<Ministries />} />
         <Route path="/events" element={<Events />} />
+        <Route path="/sermons" element={<Sermons />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/give" element={<Give />} />
         <Route path="/visit" element={<Visit />} />
