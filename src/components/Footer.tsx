@@ -2,7 +2,7 @@ import { Facebook, Instagram, Youtube, MapPin, Mail, Phone } from 'lucide-react'
 
 const Footer = () => {
     return (
-        <footer className="bg-secondary text-white pt-16 pb-8">
+        <footer className="bg-gray-900 text-white pt-20 pb-10">
             <div className="container-custom grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
                 {/* Brand */}
                 <div className="space-y-4">
