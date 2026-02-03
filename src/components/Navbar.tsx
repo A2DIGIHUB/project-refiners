@@ -42,7 +42,6 @@ const Navbar = () => {
     const isTransparent = isHome && !scrolled;
     const navbarBg = isTransparent ? 'bg-transparent' : 'bg-white/80 backdrop-blur-md shadow-sm';
     const textColor = isTransparent ? 'text-white' : 'text-secondary';
-    const logoBg = isTransparent ? 'bg-white text-primary' : 'bg-primary text-white';
 
     return (
         <nav
@@ -50,11 +49,8 @@ const Navbar = () => {
         >
             <div className="container-custom flex justify-between items-center px-4 md:px-8">
                 {/* Logo */}
-                <Link to="/" className="flex items-center gap-3 group">
+                <Link to="/" className="flex items-center group">
                     <img src="/images/pst id b.png" alt="Refiners City Logo" className="h-12 w-auto" />
-                    <span className={`font-bold text-xl tracking-tight transition-colors ${textColor}`}>
-                        Refiners City
-                    </span>
                 </Link>
 
                 {/* Desktop Navigation */}
