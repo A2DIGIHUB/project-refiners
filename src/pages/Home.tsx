@@ -22,8 +22,7 @@ const Home = () => {
                         <h2 className="text-lg md:text-2xl font-medium tracking-wider mb-4 text-red-400 uppercase">Welcome Home</h2>
                         <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold mb-6 tracking-tight">Refiners-City</h1>
                         <p className="max-w-xl mx-auto text-base sm:text-lg md:text-xl text-gray-200 mb-8 leading-relaxed">
-                            A place to encounter God, experience transformation, and find your purpose.
-                            Join us this Sunday as we worship together.
+                            Refiners City is a place to encounter GOD, experience true transformation, discover your purpose in Christ and commit yourself to the work of GOD.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center w-full max-w-sm sm:max-w-none mx-auto">
                             <Link to="/visit" className="btn btn-primary text-base md:text-lg px-6 md:px-8 py-3 flex items-center justify-center gap-2">

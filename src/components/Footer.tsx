@@ -1,4 +1,5 @@
 import { Facebook, Instagram, Youtube, MapPin, Mail, Phone } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -16,9 +17,9 @@ const Footer = () => {
                         A place of transformation, refining hearts and building community through faith and love.
                     </p>
                     <div className="flex gap-4 pt-2">
-                        <a href="#" className="text-gray-400 hover:text-primary transition-colors"><Facebook size={20} /></a>
-                        <a href="#" className="text-gray-400 hover:text-primary transition-colors"><Instagram size={20} /></a>
-                        <a href="#" className="text-gray-400 hover:text-primary transition-colors"><Youtube size={20} /></a>
+                        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-primary transition-colors"><Facebook size={20} /></a>
+                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-primary transition-colors"><Instagram size={20} /></a>
+                        <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-primary transition-colors"><Youtube size={20} /></a>
                     </div>
                 </div>
 
@@ -26,11 +27,11 @@ const Footer = () => {
                 <div>
                     <h4 className="font-bold text-lg mb-4">Quick Links</h4>
                     <ul className="space-y-2 text-gray-400 text-sm">
-                        <li><a href="#" className="hover:text-white transition-colors">About Us</a></li>
-                        <li><a href="#" className="hover:text-white transition-colors">Our Ministries</a></li>
-                        <li><a href="#" className="hover:text-white transition-colors">Sermons</a></li>
-                        <li><a href="#" className="hover:text-white transition-colors">Events Calendar</a></li>
-                        <li><a href="#" className="hover:text-white transition-colors">Contact</a></li>
+                        <li><Link to="/about" className="hover:text-white transition-colors">About Us</Link></li>
+                        <li><Link to="/ministries" className="hover:text-white transition-colors">Our Ministries</Link></li>
+                        <li><Link to="/sermons" className="hover:text-white transition-colors">Sermons</Link></li>
+                        <li><Link to="/events" className="hover:text-white transition-colors">Events Calendar</Link></li>
+                        <li><Link to="/contact" className="hover:text-white transition-colors">Contact</Link></li>
                     </ul>
                 </div>
 

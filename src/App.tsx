@@ -9,6 +9,8 @@ import Give from './pages/Give';
 import Visit from './pages/Visit';
 
 import Sermons from './pages/Sermons';
+import Watch from './pages/Watch';
+import New from './pages/New';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
         <Route path="/ministries" element={<Ministries />} />
         <Route path="/events" element={<Events />} />
         <Route path="/sermons" element={<Sermons />} />
+        <Route path="/watch" element={<Watch />} />
+        <Route path="/new" element={<New />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/give" element={<Give />} />
         <Route path="/visit" element={<Visit />} />
