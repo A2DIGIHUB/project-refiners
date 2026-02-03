@@ -149,21 +149,22 @@ const Home = () => {
                                 image: "/images/about/community.png"
                             }
                         ].map((min, idx) => (
-                            <motion.div
-                                key={idx}
-                                initial={{ opacity: 0, y: 20 }}
-                                whileInView={{ opacity: 1, y: 0 }}
-                                viewport={{ once: true }}
-                                transition={{ delay: idx * 0.1 }}
-                                className="group relative overflow-hidden rounded-xl h-80 cursor-pointer"
-                            >
-                                <img src={min.image} alt={min.title} className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
-                                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent flex flex-col justify-end p-6 text-white">
-                                    <h3 className="text-2xl font-bold mb-2">{min.title}</h3>
-                                    <p className="text-gray-200 mb-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform translate-y-4 group-hover:translate-y-0">{min.desc}</p>
-                                    <span className="text-red-400 font-medium flex items-center gap-2">Learn More <ArrowRight size={16} /></span>
-                                </div>
-                            </motion.div>
+                            <Link to="/ministries" key={idx}>
+                                <motion.div
+                                    initial={{ opacity: 0, y: 20 }}
+                                    whileInView={{ opacity: 1, y: 0 }}
+                                    viewport={{ once: true }}
+                                    transition={{ delay: idx * 0.1 }}
+                                    className="group relative overflow-hidden rounded-xl h-80 cursor-pointer"
+                                >
+                                    <img src={min.image} alt={min.title} className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
+                                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent flex flex-col justify-end p-6 text-white">
+                                        <h3 className="text-2xl font-bold mb-2">{min.title}</h3>
+                                        <p className="text-gray-200 mb-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform translate-y-4 group-hover:translate-y-0">{min.desc}</p>
+                                        <span className="text-red-400 font-medium flex items-center gap-2">Learn More <ArrowRight size={16} /></span>
+                                    </div>
+                                </motion.div>
+                            </Link>
                         ))}
                     </div>
                 </div>
