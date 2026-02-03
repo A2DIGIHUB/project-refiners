@@ -11,7 +11,7 @@ const Footer = () => {
                         <div className="bg-primary text-white p-1 rounded">
                             <span className="font-bold text-lg">RC</span>
                         </div>
-                        <h3 className="text-xl font-bold">Refiners-City</h3>
+                        <h3 className="text-xl font-bold">Refiners City</h3>
                     </div>
                     <p className="text-gray-400 text-sm leading-relaxed">
                         A place of transformation, refining hearts and building community through faith and love.
@@ -70,7 +70,7 @@ const Footer = () => {
             </div>
 
             <div className="container-custom pt-8 border-t border-gray-800 text-center text-gray-500 text-sm">
-                <p>&copy; {new Date().getFullYear()} Refiners-City Church. All rights reserved.</p>
+                <p>&copy; {new Date().getFullYear()} Refiners City Church. All rights reserved.</p>
             </div>
         </footer>
     );

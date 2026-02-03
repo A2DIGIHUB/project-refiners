@@ -31,16 +31,21 @@ const About = () => {
                     </div>
                     <div className="md:col-span-7 space-y-16 py-8">
                         <div>
-                            <h2 className="text-sm font-bold text-primary uppercase tracking-widest mb-4">Our Vision</h2>
+                            <h2 className="text-sm font-bold text-primary uppercase tracking-widest mb-4">The Vision</h2>
                             <p className="text-2xl md:text-3xl text-gray-800 leading-tight">
-                                To see lives refined by the fire of God's love, cities transformed by the power of the Gospel, and generations raised to walk in their divine identity.
+                                Refining lives, causing end-time revival and preparing the world for the second coming of Christ.
                             </p>
                         </div>
                         <div>
-                            <h2 className="text-sm font-bold text-primary uppercase tracking-widest mb-4">Our Mission</h2>
-                            <p className="text-xl text-gray-600 leading-relaxed">
-                                We exist to create an atmosphere where people can encounter the Holy Spirit, be equipped through the Word, and be empowered to impact their world. We believe in authenticity, community, and the transformative power of Jesus.
-                            </p>
+                            <h2 className="text-sm font-bold text-primary uppercase tracking-widest mb-4">The Mission</h2>
+                            <ul className="text-xl text-gray-600 leading-relaxed space-y-3">
+                                <li className="flex gap-3"><span className="text-primary font-bold">1.</span> Preach salvation in an uncompromising way</li>
+                                <li className="flex gap-3"><span className="text-primary font-bold">2.</span> Be evangelistic and breed the consciousness in her members</li>
+                                <li className="flex gap-3"><span className="text-primary font-bold">3.</span> Raise pastors and members in holiness on the principle of loyalty</li>
+                                <li className="flex gap-3"><span className="text-primary font-bold">4.</span> Preach, teach, and demonstrate the power of the Holy Spirit</li>
+                                <li className="flex gap-3"><span className="text-primary font-bold">5.</span> Open up branch churches across the globe</li>
+                                <li className="flex gap-3"><span className="text-primary font-bold">6.</span> Teach members that many are called</li>
+                            </ul>
                         </div>
                     </div>
                 </div>

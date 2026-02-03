@@ -50,12 +50,10 @@ const Navbar = () => {
         >
             <div className="container-custom flex justify-between items-center px-4 md:px-8">
                 {/* Logo */}
-                <Link to="/" className="flex items-center gap-2 group">
-                    <div className={`p-2 rounded-lg transition-colors ${logoBg}`}>
-                        <span className="font-bold text-xl">RC</span>
-                    </div>
+                <Link to="/" className="flex items-center gap-3 group">
+                    <img src="/images/pst id b.png" alt="Refiners City Logo" className="h-12 w-auto" />
                     <span className={`font-bold text-xl tracking-tight transition-colors ${textColor}`}>
-                        Refiners-City
+                        Refiners City
                     </span>
                 </Link>
 
