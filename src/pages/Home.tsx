@@ -50,8 +50,17 @@ const Home = () => {
                         >
                             <Clock size={48} className="text-primary mb-4" />
                             <h3 className="text-xl font-bold mb-2">Service Times</h3>
-                            <p className="text-gray-600">Sundays at 9:00 AM & 11:00 AM</p>
-                            <p className="text-gray-600">Wednesdays at 7:00 PM</p>
+                            <div className="text-gray-600 text-sm space-y-1">
+                                <p className="font-semibold text-base mb-2">Sunday Service</p>
+                                <p>6:00am – Kings and Queens Shift</p>
+                                <p>8:00am – Ignition Shift</p>
+                                <p>10:00am – Family Love Shift</p>
+                                <p>5:00pm – Stars Shift</p>
+                                <p className="font-semibold text-base mt-3">Pastor School</p>
+                                <p>Monday - 5:00pm</p>
+                                <p className="font-semibold text-base mt-3">Mid-Week Service</p>
+                                <p>Wednesday - 5:00pm</p>
+                            </div>
                         </motion.div>
 
                         {/* Card 2 */}
