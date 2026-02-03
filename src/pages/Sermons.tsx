@@ -30,7 +30,10 @@ const Sermons = () => {
                         <div className="relative z-10 text-center text-white">
                             <Video size={64} className="mx-auto mb-4 opacity-80 group-hover:scale-110 transition-transform duration-300" />
                             <h3 className="text-2xl font-bold">Join Service Live</h3>
-                            <p className="text-gray-300 mt-2">Sundays 9:00 AM & 11:00 AM</p>
+                            <div className="text-gray-300 mt-2 space-y-1 text-sm">
+                                <p className="font-semibold">Sundays:</p>
+                                <p>6am, 8am, 10am, 5pm</p>
+                            </div>
                         </div>
                     </div>
                 </div>

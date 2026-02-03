@@ -19,9 +19,22 @@ const Visit = () => {
                             <div className="mb-10">
                                 <Clock size={32} className="mb-4 text-white/80" />
                                 <h3 className="font-bold text-2xl mb-4">Service Times</h3>
-                                <div className="space-y-2 text-white/90 text-lg">
-                                    <p className="flex justify-between border-b border-white/20 pb-2"><span>Sunday</span> <span>9:00 AM & 11:00 AM</span></p>
-                                    <p className="flex justify-between border-b border-white/20 pb-2 pt-2"><span>Wednesday</span> <span>7:00 PM</span></p>
+                                <div className="space-y-3 text-white/90">
+                                    <div>
+                                        <p className="font-semibold mb-2">Sunday Service</p>
+                                        <p className="text-sm border-b border-white/20 pb-1">6:00am – Kings and Queens Shift</p>
+                                        <p className="text-sm border-b border-white/20 pb-1 pt-1">8:00am – Ignition Shift</p>
+                                        <p className="text-sm border-b border-white/20 pb-1 pt-1">10:00am – Family Love Shift</p>
+                                        <p className="text-sm border-b border-white/20 pb-1 pt-1">5:00pm – Stars Shift</p>
+                                    </div>
+                                    <div className="pt-2">
+                                        <p className="font-semibold mb-1">Pastor School</p>
+                                        <p className="text-sm border-b border-white/20 pb-1">Monday - 5:00pm</p>
+                                    </div>
+                                    <div className="pt-2">
+                                        <p className="font-semibold mb-1">Mid-Week Service</p>
+                                        <p className="text-sm">Wednesday - 5:00pm</p>
+                                    </div>
                                 </div>
                             </div>
                             <div>
